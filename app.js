@@ -1,18 +1,18 @@
 let imagenes = [
     {
-        "url": "img/img1.webp",
+        "url": "img/hauncayo.jpg",
         "nombre": "Viaje a Péru",
         "descripcion": "Este es el proyecto 01 fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
 
     },
     {
-        "url": "img/img2.webp",
+        "url": "img/argentina.jpg",
         "nombre": "Viaje Argentina",
         "descripcion": "Hola a todos este es el proyecto02 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
 
     },
     {
-        "url": "img/img3.webp",
+        "url": "img/colonia.jpg",
         "nombre": "Viaje a Colonia de Sacramento",
         "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
 
