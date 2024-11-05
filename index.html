@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Viajes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="Img/viajar.png" type="image/x-icon">
+</head>
+
+<body>
+<!--   esto es una cabecera-->
+  <header id="inicio">
+        <div class ="content">
+          
+          <div class ="menu container">  
+            <img id="logo" src="Img/logo.jpg" alt="Logo de Viajes">    
+            <h1 class="logo">Mis viajes</h1>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+              <img src="Img/menu.png" class="menu-icono"alt="">
+            </label> 
+            <nav class = "navbar">
+              <ul>
+                  <li class="activo">
+                    <a href="#">Inicio</a> 
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a> 
+                  </li>
+                <li>
+                    <a href="formulario.html">Contacto</a> 
+                  </li>
+                </ul>
+            </nav>
+          </div>
+      </div>
+  </header>
+    <!--   esto es para el contenido de los articulos-->  
+    <section class="contenido">
+       <article>
+        <h3>Acerca de mí</h3>
+        <br>
+          <h3>Mi nombre es Victor Abreu</h3>
+          <img class="img-seccion" src="Img/yo.png" alt="Foto de VA">
+          <h4>Te mostrare hermosos lugares de Sudamerica</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate repudiandae ipsam facere repellat nam impedit quae, placeat tempora incidunt veniam officia distinctio excepturi sapiente animi voluptas repellendus exercitationem est!</p>
+       </article>
+       
+       <div class="carrusel">
+        <div class="atras">
+            <img id="atras" src="img/atras.svg" alt="atras" loading="lazy">
+        </div>
+
+        <div class="imagenes">
+            <div id="img">
+                <img class="img" src="img/img1.webp" alt="imagen 1" loading="lazy">
+            </div>
+            
+            <div id="texto" class="texto">
+                <h3>Viaje a Péru</h3>
+                <p>Este es el proyecto 01 fue desarrollado para un video de youtube. Si te gusta el contenido dale
+                    like y suscribete</p>
+            </div>
+        </div>
+
+        <div class="adelante" id="adelante">
+            <img src="img/adelante.svg" alt="adelante" loading="lazy">
+        </div>
+    </div>
+
+    <div class="puntos" id="puntos"></div>
+
+    <script src="app.js"></script>
+    <section class="contenido">
+      <article> <!-- primer articulo o post--> 
+        <a href="peru.html">
+           <h2>Viaje a Perú</h2>
+        </a>
+         <p id="arriba">Población de Huancayo, ubicada en la Sierra</p>
+         
+          <a href="peru.html">
+            <img class="img-seccion" src="Img/hauncayo.jpg" alt="Foto de Huancayo" width="200" height="150">
+          </a>
+          
+          <p id="abajo">Hermosa ciudad</p>
+       </article>
+       
+       <article> <!-- segundo articulo o post--> 
+         
+         <a href="argentina.html">
+           <h2>Viaje a Argentina</h2>
+         </a>
+          <p id="arriba">Ciudad de <a href="argentina.html">Buenos Aires </a> es muy grande</p> 
+          
+          <a href="argentina.html">
+            <img class="img-seccion" src="Img/argentina.jpg" alt="Foto de la Huancayo"    width="200" height="150">
+          </a>
+          <p id="abajo">Capital del Futbol Sudamericano</p>
+       </article>
+       
+       <article> <!-- tercer articulo o post-->
+        <a href="colonia.html">  
+         <h2>Viaje a Colonia de Sacramento</h2>
+         </a>
+         <p id="arriba">Ciudad fundada por los Portugueses.. 1500</p> 
+           <a href="colonia.html">  
+          <img class="img-seccion" src="Img/colonia.jpg" alt="Foto de la Huancayo" width="200" height="150">
+           </a>
+          <p id="abajo">Hermosas calles de piedras</p>
+       </article>
+    
+         </section>
+      <footer> <!-- pie de página-->
+        <h3> &copy; 2024 Victor Abreu</h3>
+        <div class="footer">
+          <a href="#inicio">Inicio</a>  
+          <a href="formulario.html">Contacto</a>
+        </div>  
+      </footer>
+   
+</body>
+</html>
