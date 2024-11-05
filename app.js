@@ -2,19 +2,19 @@ let imagenes = [
     {
         "url": "img/hauncayo.jpg",
         "nombre": "Viaje a Péru",
-        "descripcion": "Este es el proyecto 01 fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "descripcion": "Huancayo Péru, hermoso lugar a 3.200 msn"
 
     },
     {
         "url": "img/argentina.jpg",
         "nombre": "Viaje Argentina",
-        "descripcion": "Hola a todos este es el proyecto02 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "descripcion": "Buenos Aires, Ciudad con una hermosa arquitectura"
 
     },
     {
         "url": "img/colonia.jpg",
         "nombre": "Viaje a Colonia de Sacramento",
-        "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "descripcion": "Ciudad Colonial, fundada por Brasileros"
 
     },
 ]
