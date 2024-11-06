@@ -276,10 +276,11 @@ section article a {
 
 .redes img{
     width: 30px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30%;
+    
+    gap: 30%; */
 }
 
 .redes img:hover {
